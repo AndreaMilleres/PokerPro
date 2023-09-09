@@ -1,0 +1,6 @@
+total_amount_to_call = float(input("Enter the total amount you need to call: "))
+total_pot_after_call = float(input("Enter the total pot after your call: "))
+
+bank_odds = total_amount_to_call / total_pot_after_call
+
+print("The bank odds are: {:.2%}".format(bank_odds))
